@@ -1,0 +1,46 @@
+html {
+  overflow: scroll;
+  overflow-y: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+.h4 {
+  text-align: center;
+}
+
+.col {
+  margin-top: 4vh;
+}
+
+.ree {
+  margin-top: 5vh;
+}
+
+#title {
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+}
+
+#innerform {
+  width: 50%;
+  display: inline-block;
+  margin-top: 3vh;
+}
+
+#bottom-form {
+  display: inline-block;
+  /* width:50%; */
+  position: absolute;
+  bottom: 9vh;
+  right: 2vw;
+}
